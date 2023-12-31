@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
-import parse from "html-react-parser";
+
 import "./App.css";
 import { Dropbox } from "dropbox";
 
@@ -74,10 +74,6 @@ function App() {
                 }}
               />
               <button onClick={handleSave}>Save</button>
-            </div>
-            <div>
-              <h2>Content</h2>
-              <p>{parse(text)}</p>
             </div>
           </>
         )}
