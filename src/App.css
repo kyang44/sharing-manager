@@ -9,6 +9,11 @@
   color: black;
 }
 
+.editor button {
+  background-color: grey;
+  margin-top: 0.5em;
+}
+
 .ck-editor__editable_inline {
   min-height: 500px;
 }
